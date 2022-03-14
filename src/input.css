@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-3 px-6 rounded;
+}
+.btn-blue {
+    @apply bg-blue-500 text-white text-sm font-medium hover:bg-blue-600;
+}
+.btn-outline-blue {
+    @apply border border-blue-500 text-blue-500 text-sm font-medium hover:text-white hover:bg-blue-500;
+}
+.hide {
+    @apply opacity-0 invisible;
+}
+.show {
+    @apply opacity-100 visible;
+}
+.no-scrollbar {
+    scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
